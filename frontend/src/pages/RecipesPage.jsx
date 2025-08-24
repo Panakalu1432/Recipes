@@ -5,7 +5,6 @@ import Filters from "../components/Filters";
 import RecipeTable from "../components/RecipeTable";
 import RecipeDrawer from "../components/RecipeDrawer";
 import { TailSpin } from 'react-loader-spinner';
-import './RecipesPage.css'
 
 const RecipesPage = () => {
   const [recipes, setRecipes] = useState([]);
